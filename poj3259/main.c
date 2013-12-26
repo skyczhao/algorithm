@@ -2,88 +2,70 @@
 #include <stdio.h>
 #include <string.h>
 
-int size, ways, holes;
-int costs[505][505];
-int worm[505][505];
+struct cost_node{
+    int s;
+    int e;
+    int c;
+};
 
-int path[505][505];
-int back[505][505];
+int f_size, p_size, h_size;
+cost_node costs[6000];
+int dist[505];
+
+bool bellmanford(int source)
+{
+    int MAX, i, j;
+    memset(dist, 1, 505 * sizeof(int));
+    memset(&MAX, 1, sizeof(int));
+    dist[source] = 0;
+    for(i = 0; i < f_size; i++){
+        // 松弛
+        for(j = 0; j < 2 * p_size + h_size; j++){
+            if(dist[costs[j].s] + costs[j].c < dist[costs[j].e])
+                dist[costs[j].e] = dist[costs[j].s] + costs[j].c;
+        }
+    }
+    // 检查
+    for(i = 0; i < 2 * p_size + h_size; i++)
+        if(dist[costs[i].s] + costs[i].c < dist[costs[i].e])
+            return false;
+    return true;
+}
 
 int main()
 {
-    int mark, i, j, m;
-    int s, t, c;
+    int size, i;
     bool flag;
-    scanf("%d", &mark);
-    while(mark--){
-        scanf("%d %d %d", &size, &ways, &holes);
-        memset(costs, 1, sizeof(costs));
-        memset(path, 1, sizeof(path));
-        memset(worm, 0, sizeof(worm));
-        memset(back, 0, sizeof(back));
-        for(i = 0; i < size; i++){
-            path[i][i] = 0;
-            back[i][i] = 0;
+    scanf("%d", &size);
+    while(size--){
+        scanf("%d %d %d", &f_size, &p_size, &h_size);
+        for(i = 0; i < p_size; i++){
+            scanf("%d %d %d", &costs[i].s, &costs[i].e, &costs[i].c);
+            costs[i].s--;
+            costs[i].e--;
+            costs[p_size + i].s = costs[i].e;
+            costs[p_size + i].e = costs[i].s;
+            costs[p_size + i].c = costs[i].c;
         }
-        for(i = 0; i < ways; i++){
-            scanf("%d %d %d", &s, &t, &c);
-            s--;
-            t--;
-            costs[s][t] = c;
-            costs[t][s] = c;
+        for(i = 0; i < h_size; i++){
+            scanf("%d %d %d", &costs[2 * p_size + i].s, &costs[2 * p_size + i].e, &costs[2 * p_size + i].c);
+            costs[2 * p_size + i].s--;
+            costs[2 * p_size + i].e--;
+            costs[2 * p_size + i].c = 0 - costs[2 * p_size + i].c;
         }
-        for(i = 0; i < holes; i++){
-            scanf("%d %d %d", &s, &t, &c);
-            s--;
-            t--;
-            worm[s][t] = c;
-            back[s][t] = c;
-        }
+        //for(i = 0; i < 2 * p_size + h_size; i++)
+        //    printf("%d %d %d\n", costs[i].s, costs[i].e, costs[i].c);
 
         flag = true;
-        while(flag){
+        //for(i = 0; i < f_size; i++)
+        if(!bellmanford(0)){
             flag = false;
-            for(i = 0; i < size; i++){
-                for(j = 0; j < size; j++){
-                    for(m = 0; m < size; m++){
-                        if(path[i][j] + costs[j][m] < path[i][m]){
-                            flag = true;
-                            path[i][m] = path[i][j] + costs[j][m];
-                        }
-                    }// cols costs
-                }// cols
-            }// rows
+            //break;
         }
-
-        flag = true;
-        while(flag){
-            flag = false;
-            for(i = 0; i < size; i++){
-                for(j = 0; j < size; j++){
-                    if(back[i][j] != 0){
-                        for(m = 0; m < size; m++){
-                            if(worm[j][m] != 0){
-                                int temp = back[i][j] + worm[j][m];
-                                if(temp < 1000005 && temp > back[i][m]){
-                                    flag = true;
-                                    back[i][m] = temp;
-                                }
-                            }
-                        }// col costs
-                    }
-                }// cols
-            }// rows
-        }
-
-        flag = false;
-        for(i = 0; i < size && !flag; i++)
-            for(j = 0; j < size && !flag; j++)
-                if(path[i][j] < 10005 && back[i][j] > path[i][j])
-                    flag = true;
         if(flag)
-            printf("YES\n");
-        else
             printf("NO\n");
+        else
+            printf("YES\n");
     }
     return 0;
 }
