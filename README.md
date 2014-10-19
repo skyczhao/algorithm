@@ -18,5 +18,12 @@ solution
     * soj1021  
         stack
     * soj1035  
-2. waiting...
+2. soj1046
+    * be careful for the long description  
+        (number of quarters, number of periods that would be returned, minimum quarters)
+    * you can regard it as the first n maximum numbers selection, using the heap.  
+        maybe faster than selecting after sorting
+    * the orderly insert is better than the max n numbers selection by travel the array  
+        just hold the limited size of the front n numbers
+3. waiting...
 
