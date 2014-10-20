@@ -1,3 +1,6 @@
 
 # ignore .o
 *.o
+
+# ignore main
+main
