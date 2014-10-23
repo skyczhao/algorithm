@@ -18,6 +18,9 @@ solution
     * soj1021  
         stack
     * soj1035  
+    * soj1051  
+    * soj1198  
+        using strcpy, strcat, strcmp  
 2. soj1046
     * be careful for the long description  
         (number of quarters, number of periods that would be returned, minimum quarters)
