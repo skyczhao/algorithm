@@ -27,6 +27,9 @@ solution
     * you can regard it as the first n maximum numbers selection, using the heap.  
         maybe faster than selecting after sorting
     * the orderly insert is better than the max n numbers selection by travel the array  
-        just hold the limited size of the front n numbers
-3. waiting...
+        just hold the limited size of the front n numbers  
+3. soj1176
+    * abs() is in stdlib.h, not math.h
+    * recursive function would be TLE, just mark down the state is OK
+4. waiting...
 
