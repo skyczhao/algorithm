@@ -21,6 +21,8 @@ solution
     * soj1051  
     * soj1198  
         using strcpy, strcat, strcmp  
+    * soj1150  
+        ugly, just use BFS.
 2. soj1046
     * be careful for the long description  
         (number of quarters, number of periods that would be returned, minimum quarters)
