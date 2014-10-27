@@ -33,5 +33,9 @@ solution
 3. soj1176
     * abs() is in stdlib.h, not math.h
     * recursive function would be TLE, just mark down the state is OK
+4. soj1151
+    * contor encoding
+    * use list to store the path is too stupid
+    * estimate the memory cost by calculate the size of array
 4. waiting...
 
