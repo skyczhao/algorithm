@@ -22,7 +22,9 @@ solution
     * soj1198  
         using strcpy, strcat, strcmp  
     * soj1150  
-        ugly, just use BFS.
+        ugly, just use BFS.  
+    * soj1006  
+        stupid, wrong use of strcpy, strcmp, and maybe just compare two string by index  
 2. soj1046
     * be careful for the long description  
         (number of quarters, number of periods that would be returned, minimum quarters)
