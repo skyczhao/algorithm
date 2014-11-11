@@ -25,6 +25,10 @@ solution
         ugly, just use BFS.  
     * soj1006  
         stupid, wrong use of strcpy, strcmp, and maybe just compare two string by index  
+    * soj1009  
+        a big pit! don't use file I/O  
+        but you can learn that using fgets and strtok  
+        don't use pow, it can't generate long long int, for C, but I haven't been tring it in C++  
 2. soj1046
     * be careful for the long description  
         (number of quarters, number of periods that would be returned, minimum quarters)
