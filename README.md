@@ -12,3 +12,5 @@ This folder contains some test codes. Some of them are my test on online judges,
 * Date: 11/12/2014  
     Change the folder structure  
 
+Plan
+-----
