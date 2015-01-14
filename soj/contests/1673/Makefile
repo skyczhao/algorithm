@@ -1,10 +1,13 @@
 
 CXX = g++
 CXXFLAGS = -g
-OBJS = 1000.o 1001.o 1002.o 1003.o
-EXE = 1000 1001 1002 1003
+OBJS = 1000.o 1001.o 1002.o 1003.o 1004.o
+EXE = 1000 1001 1002 1003 1004
 
 all: $(EXE)
+
+1004: 1004.o
+	$(CXX) $(CXXFLAGS) -o $@ $<
 
 1003: 1003.o
 	$(CXX) $(CXXFLAGS) -o $@ $<
