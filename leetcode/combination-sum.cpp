@@ -42,9 +42,13 @@ public:
             } else if (tmpSum < target) {
                 // 保证index是递增的
                 for (int i = lastIndex; i < candidates.size(); i++) {
-                    vector<int> next = vector<int>(tmp);
-                    next.push_back(i);
-                    canResult.push(next);
+                    int nextSum = tmpSum + candidates[i];
+                    // OPT 1: 提前剪枝, 减少空间使用
+                    if (nextSum <= target) {
+                        vector<int> next = vector<int>(tmp);
+                        next.push_back(i);
+                        canResult.push(next);
+                    } 
                 }
             }
 
