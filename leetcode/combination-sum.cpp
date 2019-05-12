@@ -45,9 +45,11 @@ public:
                     int nextSum = tmpSum + candidates[i];
                     // OPT 1: 提前剪枝, 减少空间使用
                     if (nextSum <= target) {
-                        vector<int> next = vector<int>(tmp);
-                        next.push_back(i);
-                        canResult.push(next);
+                        // OPT 2: 避免deep copy也可以
+                        // vector<int> next = vector<int>(tmp);
+                        tmp.push_back(i);
+                        canResult.push(tmp);
+                        tmp.pop_back();
                     } 
                 }
             }
