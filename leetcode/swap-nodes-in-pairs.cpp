@@ -14,6 +14,7 @@ struct ListNode {
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
+        // 坑位2: head同样存在坑位1的问题(所以要返回head, 否则原数组只有1,4,3)
         ListNode *th = head;
         ListNode *last = NULL;
         while (th != NULL) {
@@ -27,6 +28,7 @@ public:
             
             first->next = second->next;
             second->next = first;
+            // 坑位3: 不能直接使用first = second, 因为同样存在坑位1的问题, 指针的赋值并不能改变原指针的指向
             if (last == NULL) {
                 head = second;
             } else {
@@ -41,6 +43,8 @@ public:
     }
 
     // void swapNode(ListNode *left, ListNode *right) {
+    //     // 坑位1: 指针交换只做到了内容交换, 没实现指针指向位置的交换
+    //     // 如果需要实现, 需要 **pointer (双重指针)
 
     //     left = right;
     //     return;
@@ -104,5 +108,6 @@ int main() {
 
     Solution s = Solution();
     printNode(s.swapPairs(head));
+    printNode(head);
 
 }
