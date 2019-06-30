@@ -3,6 +3,8 @@
 using namespace std;
 
 // 去重向前压缩
+// 执行用时 : 52 ms, 在所有 C++ 提交中击败了39.66% 的用户
+// 内存消耗 : 10 MB, 在所有 C++ 提交中击败了76.02% 的用户
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
