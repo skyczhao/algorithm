@@ -12,21 +12,21 @@ int main() {
         }
         digit[0] = 1;
         size = 1;
-        
+
         for (int i = 2; i <= n; i++) {
             int next = 0;
             for (int j = 0; j < size; j++) {
                 int sum = i * digit[j] + next;
-                
+
                 digit[j] = sum % 10000;
                 next = sum / 10000;
             }
             if (next > 0) {
                 digit[size] = next;
                 size++;
-            }            
+            }
         }
-        
+
         cout << digit[size - 1];
         for (int i = size - 2; i >= 0; i--) {
             if (digit[i] < 1000) {
