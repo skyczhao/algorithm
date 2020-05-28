@@ -1,4 +1,4 @@
-package com.huaweicloud.oj;
+package huawei;
 
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
