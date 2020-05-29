@@ -1,0 +1,1 @@
+cat words.txt | awk '{for (i = 1; i <= NF; i++) counts[$i]++} END{ for (idx in counts) print idx, counts[idx]}' | sort -k 2 -n -r
