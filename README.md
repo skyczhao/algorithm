@@ -1,6 +1,8 @@
 algorithm
 =====
 
+[![HitCount](http://hits.dwyl.com/skyczhao/algorithm.svg)](http://hits.dwyl.com/skyczhao/algorithm)
+
 log
 -----
 Learning! Code more, test more and learn more.  
