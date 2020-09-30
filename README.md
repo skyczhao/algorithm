@@ -26,6 +26,7 @@ Conclusion
     - [837. 新21点](leetcode/new_21_game.java)
 4. Mathematics
 5. Tree
-    - [94. 二叉树的中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 二叉树的后序遍历](leetcode/BinaryTreePostorderTraversal.java)
+    - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java)
+    - Maintain: [701. 插入操作](leetcode/BinarySearchTreeInsert.java)
 6. Engineering
     - SQL: 
