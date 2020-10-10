@@ -28,5 +28,7 @@ Conclusion
 5. Tree
     - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java)
     - Maintain: [701. 插入操作](leetcode/BinarySearchTreeInsert.java)
-6. Engineering
+6. List
+    - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
+7. Engineering
     - SQL: 
