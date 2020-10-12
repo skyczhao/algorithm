@@ -24,6 +24,7 @@ Conclusion
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
 3. Dynamic Programming
     - [837. 新21点](leetcode/new_21_game.java)
+    - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
 4. Mathematics
 5. Tree
     - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java)
