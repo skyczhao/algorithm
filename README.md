@@ -36,3 +36,5 @@ Conclusion
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
 7. Engineering
     - SQL: 
+8. Others
+    data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java)
