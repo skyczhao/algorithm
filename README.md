@@ -36,5 +36,7 @@ Conclusion
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
 7. Engineering
     - SQL: 
+8. Inspiration
+    - [234. 回文链表](leetcode/PalindromeLinkedList.java): 借用递归实现单向链表的'优雅'反向
 8. Others
-    data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java)
+    - data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java)
