@@ -29,9 +29,9 @@ Conclusion
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
 4. Mathematics
 5. Tree
-    - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java)
+    - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java), [144. 前序遍历](leetcode/BinaryTreePreorderTraversal.java)
     - Maintain: [701. 插入操作](leetcode/BinarySearchTreeInsert.java)
-    - Others: [116. 填充每个节点的下一个右侧节点指针](leetcode/PopulatingNextRightPointersInEachNode.java), [117. 填充每个节点的下一个右侧节点指针 II](leetcode/PopulatingNextRightPointersInEachNodeII.java)
+    - Others: [116. 填充下一个右侧节点指针](leetcode/PopulatingNextRightPointersInEachNode.java), [117. 填充下一个右侧节点指针 II](leetcode/PopulatingNextRightPointersInEachNodeII.java)
 6. List
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
 7. Engineering

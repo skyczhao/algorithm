@@ -1,5 +1,7 @@
 package leetcode;
 
+import utils.TreeNode;
+import utils.Trees;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -13,8 +15,13 @@ import java.util.Stack;
  */
 public class BinaryTreeInorderTraversal {
     public static void main(String[] args) {
-        BinaryTreeInorderTraversal sol = new BinaryTreeInorderTraversal();
+        TreeNode head = Trees.fromIntegers(new Integer[]{1, null, 2, 3});
 
+        BinaryTreeInorderTraversal sol = new BinaryTreeInorderTraversal();
+        List<Integer> res = sol.inorderTraversal(head);
+        for (Integer value : res) {
+            System.out.println(value);
+        }
     }
 
     public List<Integer> inorderTraversal(TreeNode root) {
@@ -44,13 +51,4 @@ public class BinaryTreeInorderTraversal {
         return res;
     }
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }
