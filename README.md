@@ -28,6 +28,8 @@ Conclusion
     - [837. 新21点](leetcode/new_21_game.java)
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
 4. Mathematics
+5. Graph
+    - shorest path: [127. 单词接龙](leetcode/WordLadder.java) 或者参考题解的双向BFS
 5. Tree
     - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java), [144. 前序遍历](leetcode/BinaryTreePreorderTraversal.java)
     - Maintain: [701. 插入操作](leetcode/BinarySearchTreeInsert.java)
