@@ -36,6 +36,7 @@ Conclusion
     - Others: [116. 填充下一个右侧节点指针](leetcode/PopulatingNextRightPointersInEachNode.java), [117. 填充下一个右侧节点指针 II](leetcode/PopulatingNextRightPointersInEachNodeII.java)
 6. List
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
+    - Swap: [328. 奇偶链表](leetcode/OddEvenLinkedList.java): 指针操作
 7. Engineering
     - SQL: 
 8. Inspiration
