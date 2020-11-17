@@ -30,6 +30,7 @@ Conclusion
 4. Mathematics
 5. Graph
     - shorest path: [127. 单词接龙](leetcode/WordLadder.java) 或者参考题解的双向BFS
+    - DAG: [406. 根据身高重建队列](leetcode/QueueReconstructionByHeight.java)
 5. Tree
     - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java), [144. 前序遍历](leetcode/BinaryTreePreorderTraversal.java)
     - Maintain: [701. 插入操作](leetcode/BinarySearchTreeInsert.java)
