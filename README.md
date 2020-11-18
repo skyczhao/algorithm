@@ -28,22 +28,24 @@ Conclusion
     - [837. 新21点](leetcode/new_21_game.java)
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
 4. Mathematics
+    - [134. 加油站](leetcode/GasStation.java) 差分累积计算
 5. Graph
     - shorest path: [127. 单词接龙](leetcode/WordLadder.java) 或者参考题解的双向BFS
     - DAG: [406. 根据身高重建队列](leetcode/QueueReconstructionByHeight.java)
+    - Matrix: [1030. 距离顺序排列矩阵单元格](leetcode/MatrixCellsInDistanceOrder.java) 矩阵遍历
 5. Tree
     - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java), [144. 前序遍历](leetcode/BinaryTreePreorderTraversal.java)
     - Maintain: [701. 插入操作](leetcode/BinarySearchTreeInsert.java)
     - Others: [116. 填充下一个右侧节点指针](leetcode/PopulatingNextRightPointersInEachNode.java), [117. 填充下一个右侧节点指针 II](leetcode/PopulatingNextRightPointersInEachNodeII.java)
 6. List
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
-    - Swap: [328. 奇偶链表](leetcode/OddEvenLinkedList.java): 指针操作
+    - Swap: [328. 奇偶链表](leetcode/OddEvenLinkedList.java) 指针操作
 7. Engineering
     - SQL: 
 8. Inspiration
-    - [234. 回文链表](leetcode/PalindromeLinkedList.java): 借用递归实现单向链表的'优雅'反向
-    - [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](leetcode/IDRO1DuplicatesAllowed.java): 复合数据结构
-    - [31. 下一个排列](leetcode/NextPermutation.java): 计算全排列指定值下一个顺序值, 非递归方式规则推导
+    - [234. 回文链表](leetcode/PalindromeLinkedList.java) 借用递归实现单向链表的'优雅'反向
+    - [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](leetcode/IDRO1DuplicatesAllowed.java) 复合数据结构
+    - [31. 下一个排列](leetcode/NextPermutation.java) 计算全排列指定值下一个顺序值, 非递归方式规则推导
 8. Others
     - data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java)
     - array operation [57. 插入区间](leetcode/InsertInterval.java), [941. 有效的山脉数组](leetcode/ValidMountainArray.java)
