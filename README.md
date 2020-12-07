@@ -49,6 +49,7 @@ Conclusion
     - [234. 回文链表](leetcode/PalindromeLinkedList.java) 借用递归实现单向链表的'优雅'反向
     - [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](leetcode/IDRO1DuplicatesAllowed.java) 复合数据结构
     - [31. 下一个排列](leetcode/NextPermutation.java) 计算全排列指定值下一个顺序值, 非递归方式规则推导
+    - [861. 翻转矩阵后的得分](leetcode/ScoreAfterFlippingMatrix.java) 贪心
 8. Others
     - data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java) [659. 分割数组为连续子序列](leetcode/SplitArrayIntoConsecutiveSubsequences.java)
     - array operation [57. 插入区间](leetcode/InsertInterval.java), [941. 有效的山脉数组](leetcode/ValidMountainArray.java)
