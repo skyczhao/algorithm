@@ -29,6 +29,7 @@ Conclusion
 3. Dynamic Programming
     - [837. 新21点](leetcode/new_21_game.java)
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
+    - [62. 不同路径](leetcode/UniquePaths.java) 可以用组合方法解题
 4. Mathematics
     - [134. 加油站](leetcode/GasStation.java) 差分累积计算
     - [204. 计数质数](leetcode/CountPrimes.java)
