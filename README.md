@@ -27,7 +27,7 @@ Conclusion
     - [164. 最大间距](leetcode/MaximumGap.java) 基数排序
     - [321. 拼接最大数](leetcode/CreateMaximumNumber.java) 单调栈结合了归并的思想
 3. Dynamic Programming
-    - [837. 新21点](leetcode/new_21_game.java)
+    - [837. 新21点](leetcode/new_21_game.java), [746. 使用最小花费爬楼梯](leetcode/MinCostClimbingStairs.java)
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
     - [62. 不同路径](leetcode/UniquePaths.java) 可以用组合方法解题
 4. Mathematics
