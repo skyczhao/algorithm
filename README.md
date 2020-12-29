@@ -55,6 +55,7 @@ Conclusion
     - [861. 翻转矩阵后的得分](leetcode/ScoreAfterFlippingMatrix.java) 理解行转列转的顺序不影响结果, 在此基础进行贪心
     - [738. 单调递增的数字](leetcode/MonotoneIncreasingDigits.java) 结合数值类数据特征进行贪心
     - [455. 分发饼干](leetcode/AssignCookies.java) 贪心+剪枝
+    - [330. 按要求补齐数组](leetcode/PatchingArray.java) 基于数学的贪心, 难题
 10. Others
     - data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java) [659. 分割数组为连续子序列](leetcode/SplitArrayIntoConsecutiveSubsequences.java)
     - array operation [57. 插入区间](leetcode/InsertInterval.java), [941. 有效的山脉数组](leetcode/ValidMountainArray.java)
