@@ -26,6 +26,7 @@ Conclusion
     - Merge: [977. 有序数组的平方](leetcode/SquaresOfASortedArray.java)
     - [164. 最大间距](leetcode/MaximumGap.java) 基数排序
     - [321. 拼接最大数](leetcode/CreateMaximumNumber.java) 单调栈结合了归并的思想
+    - [1046. 最后一块石头的重量](leetcode/LastStoneWeight.java) 插入(排序), 注意插入尾部情形
 3. Dynamic Programming
     - [837. 新21点](leetcode/new_21_game.java), [746. 使用最小花费爬楼梯](leetcode/MinCostClimbingStairs.java)
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
