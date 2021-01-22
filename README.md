@@ -18,7 +18,7 @@ Plan
 Conclusion
 -----
 1. Algebra
-    - BigNumber: [2. 两数相加](leetcode/add-two-numbers.cpp)
+    - BigNumber: [2. 两数相加](leetcode/add-two-numbers.cpp), [989. 数组形式的整数加法](leetcode/Add2ArrayFormOfInt.java)
     - Arithmetic: [15. 三数之和](leetcode/3sum.cpp), [18. 四数之和](leetcode/4sum.cpp)
 2. Search
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
