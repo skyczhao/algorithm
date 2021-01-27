@@ -41,7 +41,7 @@ Conclusion
 5. Tree
     - Traversal: [94. 中序遍历](leetcode/BinaryTreeInorderTraversal.java), [145. 后序遍历](leetcode/BinaryTreePostorderTraversal.java), [144. 前序遍历](leetcode/BinaryTreePreorderTraversal.java), [103. 锯齿形层序遍历](leetcode/BinaryTreeZigzagLevelOrderTraversal.java)
     - Maintain: [701. 插入操作](leetcode/BinarySearchTreeInsert.java)
-    - 并查集: [947. 移除最多的同行或同列石头](leetcode/MostStonesRemoved.java) 二维构造一维并查集
+    - 并查集: [947. 移除最多的同行或同列石头](leetcode/MostStonesRemoved.java) 二维构造一维并查集, [1579. 保证图可完全遍历](leetcode/RemoveMaxNumberOfEdges.java)
     - Others: [116. 填充下一个右侧节点指针](leetcode/PopulatingNextRightPointersInEachNode.java), [117. 填充下一个右侧节点指针 II](leetcode/PopulatingNextRightPointersInEachNodeII.java), [222. 完全二叉树的节点个数](leetcode/CountCompleteTreeNodes.java) 利用完全二叉树的特征剪枝统计
 6. List
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
