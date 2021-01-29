@@ -31,6 +31,7 @@ Conclusion
     - [837. 新21点](leetcode/new_21_game.java), [746. 使用最小花费爬楼梯](leetcode/MinCostClimbingStairs.java)
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
     - [62. 不同路径](leetcode/UniquePaths.java) 可以用组合方法解题
+    - dijkstra: [1631. 最小体力消耗路径](leetcode/PathWithMinimumEffort.java)
 4. Mathematics
     - [134. 加油站](leetcode/GasStation.java) 差分累积计算
     - [204. 计数质数](leetcode/CountPrimes.java)
