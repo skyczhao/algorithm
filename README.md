@@ -22,6 +22,7 @@ Conclusion
     - Arithmetic: [15. 三数之和](leetcode/3sum.cpp), [18. 四数之和](leetcode/4sum.cpp)
 2. Search
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
+    - [1178. 猜字谜](leetcode/NumberOfValidWordsForEachPuzzle.java) 二进制,压缩,优化小集交大集的搜索
 3. Sort
     - Merge: [977. 有序数组的平方](leetcode/SquaresOfASortedArray.java)
     - [164. 最大间距](leetcode/MaximumGap.java) 基数排序
