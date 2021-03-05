@@ -33,6 +33,7 @@ Conclusion
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
     - [62. 不同路径](leetcode/UniquePaths.java) 可以用组合方法解题
     - dijkstra: [1631. 最小体力消耗路径](leetcode/PathWithMinimumEffort.java)
+    - [354. 俄罗斯套娃信封问题](leetcode/RussianDollEnvelopes.java)
 4. Mathematics
     - [134. 加油站](leetcode/GasStation.java) 差分累积计算
     - [204. 计数质数](leetcode/CountPrimes.java)
@@ -50,20 +51,22 @@ Conclusion
     - Swap: [328. 奇偶链表](leetcode/OddEvenLinkedList.java) 指针操作
     - [724. 寻找数组的中心索引](leetcode/FindPivotIndex.java) 数组等值分割
     - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java)
-7. Engineering
+7. stack & queue
+    - [232. 用栈实现队列](leetcode/ImplementQueueUsingStacks.java)
+8. Engineering
     - SQL: 
-8. Inspiration
+9. Inspiration
     - [234. 回文链表](leetcode/PalindromeLinkedList.java) 借用递归实现单向链表的'优雅'反向
     - [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](leetcode/IDRO1DuplicatesAllowed.java) 复合数据结构
     - [31. 下一个排列](leetcode/NextPermutation.java) 计算全排列指定值下一个顺序值, 非递归方式规则推导
     - [135. 分发糖果](leetcode/Candy.java) 巧妙分治
     - [995. K 连续位的最小翻转次数](leetcode/MinimumNumberKConsecutiveBitFlips.java)
-9. 贪心
+10. 贪心
     - [861. 翻转矩阵后的得分](leetcode/ScoreAfterFlippingMatrix.java) 理解行转列转的顺序不影响结果, 在此基础进行贪心
     - [738. 单调递增的数字](leetcode/MonotoneIncreasingDigits.java) 结合数值类数据特征进行贪心
     - [455. 分发饼干](leetcode/AssignCookies.java) 贪心+剪枝
     - [330. 按要求补齐数组](leetcode/PatchingArray.java) 基于数学的贪心, 难题
-10. Others
+11. Others
     - data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java) [659. 分割数组为连续子序列](leetcode/SplitArrayIntoConsecutiveSubsequences.java)
     - array operation [57. 插入区间](leetcode/InsertInterval.java), [941. 有效的山脉数组](leetcode/ValidMountainArray.java)
     - bit/binary [1356. 根据数字二进制下 1 的数目排序](leetcode/SortIntByNumOf1.java) 考虑递推(转移函数)处理
