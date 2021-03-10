@@ -53,6 +53,7 @@ Conclusion
     - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java)
 7. stack & queue
     - [232. 用栈实现队列](leetcode/ImplementQueueUsingStacks.java)
+    - [224. 基本计算器](leetcode/BasicCalculator.java) 栈操作算式
 8. Engineering
     - SQL: 
 9. Inspiration
