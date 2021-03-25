@@ -50,7 +50,7 @@ Conclusion
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
     - Swap: [328. 奇偶链表](leetcode/OddEvenLinkedList.java) 指针操作, [92. 反转链表 II](leetcode/ReverseLinkedListII.java)
     - [724. 寻找数组的中心索引](leetcode/FindPivotIndex.java) 数组等值分割
-    - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java)
+    - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java), [456. 132 模式](leetcode/Pattern132.java)
 7. stack & queue
     - [232. 用栈实现队列](leetcode/ImplementQueueUsingStacks.java)
     - [224. 基本计算器](leetcode/BasicCalculator.java) 栈操作算式
