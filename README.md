@@ -25,7 +25,7 @@ Conclusion
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
     - [1178. 猜字谜](leetcode/NumberOfValidWordsForEachPuzzle.java) 二进制,压缩,优化小集交大集的搜索
     - [74. 搜索二维矩阵](leetcode/SearchS2dMatrix.java)
-    - [81. 搜索旋转排序数组 II](leetcode/SearchInRotatedSortedArrayII.java) 条件式分治搜索
+    - [81. 搜索旋转排序数组 II](leetcode/SearchInRotatedSortedArrayII.java) 条件式分治搜索, [153. 寻找旋转排序数组中的最小值](leetcode/FindMinimumInRotatedSortedArray.java)
 3. Sort
     - Merge: [977. 有序数组的平方](leetcode/SquaresOfASortedArray.java)
     - [164. 最大间距](leetcode/MaximumGap.java) 基数排序
