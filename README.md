@@ -52,6 +52,7 @@ Conclusion
     - 并查集: [947. 移除最多的同行或同列石头](leetcode/MostStonesRemoved.java) 二维构造一维并查集, [1579. 保证图可完全遍历](leetcode/RemoveMaxNumberOfEdges.java), [778. 水位上升的泳池中游泳](leetcode/SwimInRisingWater.java)
     - Others: [116. 填充下一个右侧节点指针](leetcode/PopulatingNextRightPointersInEachNode.java), [117. 填充下一个右侧节点指针 II](leetcode/PopulatingNextRightPointersInEachNodeII.java), [222. 完全二叉树的节点个数](leetcode/CountCompleteTreeNodes.java) 利用完全二叉树的特征剪枝统计
     - [783. 二叉搜索树节点最小距离](leetcode/MinimumDistanceBetweenBstNodes.java), [208. 实现 Trie (前缀树)](leetcode/ImplementTriePrefixTree.java)
+    - [897. 递增顺序搜索树](leetcode/IncreasingOrderSearchTree.java)
 6. List
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
     - Swap: [328. 奇偶链表](leetcode/OddEvenLinkedList.java) 指针操作, [92. 反转链表 II](leetcode/ReverseLinkedListII.java)
