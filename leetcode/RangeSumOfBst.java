@@ -5,7 +5,7 @@ import utils.Trees;
 
 /**
  * RangeSumOfBst
- * https://leetcode-cn.com/problems/range-sum-of-bst/solution/
+ * https://leetcode-cn.com/problems/range-sum-of-bst/
  * 938. 二叉搜索树的范围和
  * https://leetcode-cn.com/problems/range-sum-of-bst/solution/yi-dong-de-di-gui-si-lu-by-oshdyr-ihz2/
  *
