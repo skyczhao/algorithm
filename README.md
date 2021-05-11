@@ -20,7 +20,7 @@ Conclusion
 1. Algebra
     - BigNumber: [2. 两数相加](leetcode/add-two-numbers.cpp), [989. 数组形式的整数加法](leetcode/Add2ArrayFormOfInt.java)
     - Arithmetic: [15. 三数之和](leetcode/3sum.cpp), [18. 四数之和](leetcode/4sum.cpp)
-    - [1006. 笨阶乘](leetcode/ClumsyFactorial.java), [633. 平方数之和](leetcode/SumOfSquareNumbers.java) 首尾指针
+    - [1006. 笨阶乘](leetcode/ClumsyFactorial.java), [633. 平方数之和](leetcode/SumOfSquareNumbers.java) 首尾指针, [1734. 解码异或后的排列](leetcode/DecodeXoredPermutation.java)
 2. Search / Match
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
     - [1178. 猜字谜](leetcode/NumberOfValidWordsForEachPuzzle.java) 二进制,压缩,优化小集交大集的搜索
