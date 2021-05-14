@@ -21,6 +21,7 @@ Conclusion
     - BigNumber: [2. 两数相加](leetcode/add-two-numbers.cpp), [989. 数组形式的整数加法](leetcode/Add2ArrayFormOfInt.java)
     - Arithmetic: [15. 三数之和](leetcode/3sum.cpp), [18. 四数之和](leetcode/4sum.cpp)
     - [1006. 笨阶乘](leetcode/ClumsyFactorial.java), [633. 平方数之和](leetcode/SumOfSquareNumbers.java) 首尾指针, [1734. 解码异或后的排列](leetcode/DecodeXoredPermutation.java)
+    - [12. 整数转罗马数字](leetcode/IntegerToRoman.java)
 2. Search / Match
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
     - [1178. 猜字谜](leetcode/NumberOfValidWordsForEachPuzzle.java) 二进制,压缩,优化小集交大集的搜索
@@ -39,7 +40,7 @@ Conclusion
     - [62. 不同路径](leetcode/UniquePaths.java) 可以用组合方法解题
     - dijkstra: [1631. 最小体力消耗路径](leetcode/PathWithMinimumEffort.java)
     - [354. 俄罗斯套娃信封问题](leetcode/RussianDollEnvelopes.java), [115. 不同的子序列](leetcode/DistinctSubsequences.java)
-    - [面试题 17.21. 直方图的水量](leetcode/VolumeOfHistogramLcci.java), [213. 打家劫舍 II](leetcode/HouseRobberII.java), [91. 解码方法](leetcode/DecodeWays.java)
+    - [面试题 17.21. 直方图的水量](leetcode/VolumeOfHistogramLcci.java), [213. 打家劫舍 II](leetcode/HouseRobberII.java), [91. 解码方法](leetcode/DecodeWays.java), [1269. 停在原地的方案数](leetcode/NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java)
 4. Mathematics
     - [134. 加油站](leetcode/GasStation.java) 差分累积计算
     - [204. 计数质数](leetcode/CountPrimes.java), [368. 最大整除子集](leetcode/LargestDivisibleSubset.java)
