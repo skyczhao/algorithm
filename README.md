@@ -43,7 +43,7 @@ Conclusion
     - [面试题 17.21. 直方图的水量](leetcode/VolumeOfHistogramLcci.java), [213. 打家劫舍 II](leetcode/HouseRobberII.java), [91. 解码方法](leetcode/DecodeWays.java), [1269. 停在原地的方案数](leetcode/NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java)
 4. Mathematics
     - [134. 加油站](leetcode/GasStation.java) 差分累积计算
-    - [204. 计数质数](leetcode/CountPrimes.java), [368. 最大整除子集](leetcode/LargestDivisibleSubset.java)
+    - [204. 计数质数](leetcode/CountPrimes.java), [368. 最大整除子集](leetcode/LargestDivisibleSubset.java), [342. 4的幂](leetcode/PowerOfFour.java)
 5. Graph
     - shorest path: [127. 单词接龙](leetcode/WordLadder.java) 或者参考题解的双向BFS
     - DAG: [406. 根据身高重建队列](leetcode/QueueReconstructionByHeight.java)
