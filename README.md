@@ -35,7 +35,7 @@ Conclusion
     - [321. 拼接最大数](leetcode/CreateMaximumNumber.java) 单调栈结合了归并的思想
     - [1046. 最后一块石头的重量](leetcode/LastStoneWeight.java) 插入(排序), 注意插入尾部情形
 3. Dynamic Programming
-    - [837. 新21点](leetcode/new_21_game.java), [746. 使用最小花费爬楼梯](leetcode/MinCostClimbingStairs.java), [338. 比特位计数](leetcode/CountingBits.java), [879. 盈利计划](leetcode/ProfitableSchemes.java), [518. 零钱兑换 II](leetcode/CoinChange2.java)
+    - [837. 新21点](leetcode/new_21_game.java), [746. 使用最小花费爬楼梯](leetcode/MinCostClimbingStairs.java), [338. 比特位计数](leetcode/CountingBits.java), [879. 盈利计划](leetcode/ProfitableSchemes.java), [518. 零钱兑换 II](leetcode/CoinChange2.java), [877. 石子游戏](leetcode/StoneGame.java)
     - With Tree: [530. 二叉搜索树的最小绝对差](leetcode/MinimumAbsoluteDifferenceInBst.java)
     - [62. 不同路径](leetcode/UniquePaths.java) 可以用组合方法解题
     - dijkstra: [1631. 最小体力消耗路径](leetcode/PathWithMinimumEffort.java)
