@@ -24,7 +24,7 @@ Conclusion
     - [12. 整数转罗马数字](leetcode/IntegerToRoman.java), [461. 汉明距离](leetcode/HammingDistance.java), [477. 汉明距离总和](leetcode/TotalHammingDistance.java)
 2. Search / Match
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
-    - BFS: [1239. 串联字符串的最大长度](leetcode/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java)
+    - BFS: [1239. 串联字符串的最大长度](leetcode/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java), [752. 打开转盘锁](leetcode/OpenTheLock.java)
     - [1178. 猜字谜](leetcode/NumberOfValidWordsForEachPuzzle.java) 二进制,压缩,优化小集交大集的搜索
     - [74. 搜索二维矩阵](leetcode/SearchS2dMatrix.java)
     - [81. 搜索旋转排序数组 II](leetcode/SearchInRotatedSortedArrayII.java) 条件式分治搜索, [153. 寻找旋转排序数组中的最小值](leetcode/FindMinimumInRotatedSortedArray.java)
