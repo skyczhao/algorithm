@@ -74,6 +74,7 @@ Conclusion
     - [31. 下一个排列](leetcode/NextPermutation.java) 计算全排列指定值下一个顺序值, 非递归方式规则推导
     - [135. 分发糖果](leetcode/Candy.java) 巧妙分治
     - [995. K 连续位的最小翻转次数](leetcode/MinimumNumberKConsecutiveBitFlips.java)
+    - [面试题 17.10. 主要元素](leetcode/FindMajorityElementLcci.java) 二次遍历
 10. 贪心
     - [861. 翻转矩阵后的得分](leetcode/ScoreAfterFlippingMatrix.java) 理解行转列转的顺序不影响结果, 在此基础进行贪心
     - [738. 单调递增的数字](leetcode/MonotoneIncreasingDigits.java) 结合数值类数据特征进行贪心
