@@ -28,7 +28,7 @@ Conclusion
     - [1178. 猜字谜](leetcode/NumberOfValidWordsForEachPuzzle.java) 二进制,压缩,优化小集交大集的搜索
     - [74. 搜索二维矩阵](leetcode/SearchS2dMatrix.java)
     - [81. 搜索旋转排序数组 II](leetcode/SearchInRotatedSortedArrayII.java) 条件式分治搜索, [153. 寻找旋转排序数组中的最小值](leetcode/FindMinimumInRotatedSortedArray.java)
-    - [28. 实现 strStr()](leetcode/ImplementStrstr.java) KMP字符串匹配算法, [1011. 在 D 天内送达包裹的能力](leetcode/CapacityToShipPackagesWithinDDays.java) 二分搜索的适用场景
+    - [28. 实现 strStr()](leetcode/ImplementStrstr.java) KMP字符串匹配算法, [1011. 在 D 天内送达包裹的能力](leetcode/CapacityToShipPackagesWithinDDays.java) 二分搜索的适用场景, [275. H 指数 II](leetcode/HIndexII.java)
     - [403. 青蛙过河](leetcode/FrogJump.java) 记忆化搜索
 3. Sort
     - Merge: [977. 有序数组的平方](leetcode/SquaresOfASortedArray.java)
