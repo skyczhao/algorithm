@@ -46,6 +46,7 @@ Conclusion
     - [134. 加油站](leetcode/GasStation.java) 差分累积计算
     - [204. 计数质数](leetcode/CountPrimes.java), [368. 最大整除子集](leetcode/LargestDivisibleSubset.java), [342. 4的幂](leetcode/PowerOfFour.java)
     - [930. 和相同的二元子数组](leetcode/BinarySubarraysWithSum.java), [168. Excel表列名称](leetcode/ExcelSheetColumnTitle.java)
+    - [剑指 Offer 52](leetcode/LiangGeLianBiaoDeLcof.java) 转为两个链表和的追及问题
 5. Graph
     - shorest path: [127. 单词接龙](leetcode/WordLadder.java) 或者参考题解的双向BFS
     - DAG: [406. 根据身高重建队列](leetcode/QueueReconstructionByHeight.java)
