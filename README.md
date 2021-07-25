@@ -14,6 +14,9 @@ This folder contains some test codes. Some of them are my test on online judges,
 
 Plan
 -----
+1. C++/C，在没有java现有数据结构/模板方法/语法糖协助下，能不能更快地使用比较简单的语言本身的支持来实现解题
+2. 挑战时间、空间最佳，而不仅仅是通过
+3. 图是一直想深入理解的，实际问题怎么转为图的方式解决；
 
 Conclusion
 -----
@@ -64,7 +67,7 @@ Conclusion
     - [724. 寻找数组的中心索引](leetcode/FindPivotIndex.java) 数组等值分割, [82. 删除排序链表中的重复元素 II](leetcode/RemoveDuplicatesFromSortedListII.java), [80. 删除有序数组中的重复项 II](leetcode/RemoveDuplicatesFromSortedArrayII.java)
     - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java), [456. 132 模式](leetcode/Pattern132.java), [220. 存在重复元素 III](leetcode/ContainsDuplicateIII.java)
     - [1310. 子数组异或查询](leetcode/XorQueriesOfASubarray.java), [1190. 反转每对括号间的子串](leetcode/ReverseSubstringsBetweenEachPairOfParentheses.java)
-    - [138. 复制带随机指针的链表](leetcode/CopyListWithRandomPointer.java) 栅栏创建避免索引
+    - [138. 复制带随机指针的链表](leetcode/CopyListWithRandomPointer.java) 栅栏创建避免索引, [1743. 从相邻元素对还原数组](leetcode/RestoreTheArrayFromAdjacentPairs.java)
 7. stack & queue
     - [232. 用栈实现队列](leetcode/ImplementQueueUsingStacks.java), [726. 原子的数量](leetcode/NumberOfAtoms.java)
     - [224. 基本计算器](leetcode/BasicCalculator.java) 栈操作算式
