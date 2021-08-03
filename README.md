@@ -68,6 +68,7 @@ Conclusion
     - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java), [456. 132 模式](leetcode/Pattern132.java), [220. 存在重复元素 III](leetcode/ContainsDuplicateIII.java)
     - [1310. 子数组异或查询](leetcode/XorQueriesOfASubarray.java), [1190. 反转每对括号间的子串](leetcode/ReverseSubstringsBetweenEachPairOfParentheses.java)
     - [138. 复制带随机指针的链表](leetcode/CopyListWithRandomPointer.java) 栅栏创建避免索引, [1743. 从相邻元素对还原数组](leetcode/RestoreTheArrayFromAdjacentPairs.java)
+    - [581. 最短无序连续子数组](leetcode/ShortestUnsortedContinuousSubarray.java)
 7. stack & queue
     - [232. 用栈实现队列](leetcode/ImplementQueueUsingStacks.java), [726. 原子的数量](leetcode/NumberOfAtoms.java)
     - [224. 基本计算器](leetcode/BasicCalculator.java) 栈操作算式
