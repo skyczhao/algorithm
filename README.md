@@ -65,7 +65,7 @@ Conclusion
     - Cycle: [142. 环形链表 II](leetcode/LinkedListCycleII.java)
     - Swap: [328. 奇偶链表](leetcode/OddEvenLinkedList.java) 指针操作, [92. 反转链表 II](leetcode/ReverseLinkedListII.java)
     - [724. 寻找数组的中心索引](leetcode/FindPivotIndex.java) 数组等值分割, [82. 删除排序链表中的重复元素 II](leetcode/RemoveDuplicatesFromSortedListII.java), [80. 删除有序数组中的重复项 II](leetcode/RemoveDuplicatesFromSortedArrayII.java)
-    - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java), [456. 132 模式](leetcode/Pattern132.java), [220. 存在重复元素 III](leetcode/ContainsDuplicateIII.java)
+    - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java), [456. 132 模式](leetcode/Pattern132.java), [220. 存在重复元素 III](leetcode/ContainsDuplicateIII.java), [611. 有效三角形的个数](leetcode/ValidTriangleNumber.java)
     - [1310. 子数组异或查询](leetcode/XorQueriesOfASubarray.java), [1190. 反转每对括号间的子串](leetcode/ReverseSubstringsBetweenEachPairOfParentheses.java)
     - [138. 复制带随机指针的链表](leetcode/CopyListWithRandomPointer.java) 栅栏创建避免索引, [1743. 从相邻元素对还原数组](leetcode/RestoreTheArrayFromAdjacentPairs.java)
     - [581. 最短无序连续子数组](leetcode/ShortestUnsortedContinuousSubarray.java)
