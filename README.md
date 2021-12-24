@@ -70,7 +70,7 @@ Conclusion
     - [480. 滑动窗口中位数](leetcode/SlidingWindowMedian.java) 滑动窗口结合数据结构, [1004. 最大连续1的个数 III](leetcode/MaxConsecutiveOnesIII.java), [456. 132 模式](leetcode/Pattern132.java), [220. 存在重复元素 III](leetcode/ContainsDuplicateIII.java), [611. 有效三角形的个数](leetcode/ValidTriangleNumber.java)
     - [1310. 子数组异或查询](leetcode/XorQueriesOfASubarray.java), [1190. 反转每对括号间的子串](leetcode/ReverseSubstringsBetweenEachPairOfParentheses.java)
     - [138. 复制带随机指针的链表](leetcode/CopyListWithRandomPointer.java) 栅栏创建避免索引, [1743. 从相邻元素对还原数组](leetcode/RestoreTheArrayFromAdjacentPairs.java)
-    - [581. 最短无序连续子数组](leetcode/ShortestUnsortedContinuousSubarray.java)
+    - [581. 最短无序连续子数组](leetcode/ShortestUnsortedContinuousSubarray.java), [1705. 吃苹果的最大数目](leetcode/MaximumNumberOfEatenApples.java)
 7. stack & queue
     - [232. 用栈实现队列](leetcode/ImplementQueueUsingStacks.java), [726. 原子的数量](leetcode/NumberOfAtoms.java)
     - [224. 基本计算器](leetcode/BasicCalculator.java) 栈操作算式
@@ -89,11 +89,11 @@ Conclusion
     - [738. 单调递增的数字](leetcode/MonotoneIncreasingDigits.java) 结合数值类数据特征进行贪心
     - [455. 分发饼干](leetcode/AssignCookies.java) 贪心+剪枝, [1838. 最高频元素的频数](leetcode/FrequencyOfTheMostFrequentElement.java)
     - [330. 按要求补齐数组](leetcode/PatchingArray.java) 基于数学的贪心, 难题
-11. Others
+11. Map
+    - [面试题 10.02. 变位词组](leetcode/GroupAnagramsLcci.java)
+12. Others
     - data compress [925. 长按键入](leetcode/LongPressedName.java), simulating [763. 划分字母区间](leetcode/PartitionLabels.java) [659. 分割数组为连续子序列](leetcode/SplitArrayIntoConsecutiveSubsequences.java)
     - array operation [57. 插入区间](leetcode/InsertInterval.java), [941. 有效的山脉数组](leetcode/ValidMountainArray.java)
     - bit/binary [1356. 根据数字二进制下 1 的数目排序](leetcode/SortIntByNumOf1.java) 考虑递推(转移函数)处理
     - [54. 螺旋矩阵](leetcode/SpiralMatrix.java), [59. 螺旋矩阵 II](leetcode/SpiralMatrixII.java)
     - string: [482. 密钥格式化](leetcode/LicenseKeyFormatting.java)
-12. Map
-    - [面试题 10.02. 变位词组](leetcode/GroupAnagramsLcci.java)
