@@ -100,3 +100,4 @@ Conclusion
     - bit/binary [1356. 根据数字二进制下 1 的数目排序](leetcode/SortIntByNumOf1.java) 考虑递推(转移函数)处理
     - [54. 螺旋矩阵](leetcode/SpiralMatrix.java), [59. 螺旋矩阵 II](leetcode/SpiralMatrixII.java)
     - string: [482. 密钥格式化](leetcode/LicenseKeyFormatting.java)
+    - [1995. 统计特殊四元组](leetcode/CountSpecialQuadruplets.java)
