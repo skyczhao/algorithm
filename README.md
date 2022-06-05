@@ -46,6 +46,7 @@ Conclusion
     - [354. 俄罗斯套娃信封问题](leetcode/RussianDollEnvelopes.java), [115. 不同的子序列](leetcode/DistinctSubsequences.java)
     - [面试题 17.21. 直方图的水量](leetcode/VolumeOfHistogramLcci.java), [213. 打家劫舍 II](leetcode/HouseRobberII.java), [91. 解码方法](leetcode/DecodeWays.java), [1269. 停在原地的方案数](leetcode/NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java)
     - [313. 超级丑数](leetcode/SuperUglyNumber.java), [233. 数字 1 的个数](leetcode/NumberOfDigitOne.java)
+    - [70. 爬楼梯](leetcode/ClimbingStairs.java)
 4. Mathematics
     - [134. 加油站](leetcode/GasStation.java) 差分累积计算, [166. 分数到小数](leetcode/Fraction2RecurringDecimal.java)
     - [204. 计数质数](leetcode/CountPrimes.java), [368. 最大整除子集](leetcode/LargestDivisibleSubset.java), [342. 4的幂](leetcode/PowerOfFour.java)
