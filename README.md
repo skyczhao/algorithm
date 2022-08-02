@@ -77,6 +77,7 @@ Conclusion
     - [224. 基本计算器](leetcode/BasicCalculator.java) 栈操作算式
 8. Engineering
     - SQL: 
+    - Class Design: [622. 设计循环队列](leetcode/DesignCircularQueue.java)
 9. Inspiration
     - [234. 回文链表](leetcode/PalindromeLinkedList.java) 借用递归实现单向链表的'优雅'反向
     - [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](leetcode/IDRO1DuplicatesAllowed.java) 复合数据结构
