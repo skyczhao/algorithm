@@ -25,6 +25,7 @@ Conclusion
     - Arithmetic: [15. 三数之和](leetcode/3sum.cpp), [18. 四数之和](leetcode/4sum.cpp)
     - [1006. 笨阶乘](leetcode/ClumsyFactorial.java), [633. 平方数之和](leetcode/SumOfSquareNumbers.java) 首尾指针, [1734. 解码异或后的排列](leetcode/DecodeXoredPermutation.java)
     - [12. 整数转罗马数字](leetcode/IntegerToRoman.java), [461. 汉明距离](leetcode/HammingDistance.java), [477. 汉明距离总和](leetcode/TotalHammingDistance.java)
+    - [1608. 特殊数组的特征值](leetcode/SpecialArrayWithXElementsGreaterThanOrEqualX.java)
 2. Search / Match
     - DFS: [51. N 皇后](leetcode/n-queens.cpp), [52. N皇后 II](leetcode/n-queens-ii.cpp)
     - BFS: [1239. 串联字符串的最大长度](leetcode/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java), [752. 打开转盘锁](leetcode/OpenTheLock.java), [743. 网络延迟时间](leetcode/NetworkDelayTime.java)
