@@ -34,6 +34,7 @@ Conclusion
     - [81. 搜索旋转排序数组 II](leetcode/SearchInRotatedSortedArrayII.java) 条件式分治搜索, [153. 寻找旋转排序数组中的最小值](leetcode/FindMinimumInRotatedSortedArray.java)
     - [28. 实现 strStr()](leetcode/ImplementStrstr.java) KMP字符串匹配算法, [1011. 在 D 天内送达包裹的能力](leetcode/CapacityToShipPackagesWithinDDays.java) 二分搜索的适用场景, [275. H 指数 II](leetcode/HIndexII.java)
     - [403. 青蛙过河](leetcode/FrogJump.java) 记忆化搜索, [802. 找到最终的安全状态](leetcode/FindEventualSafeStates.java) 三态标记DFS, [413. 等差数列划分](leetcode/ArithmeticSlices.java) 复用DFS
+    - [1774. 最接近目标价格的甜点成本](leetcode/ClosestDessertCost.java)
 3. Sort
     - Merge: [977. 有序数组的平方](leetcode/SquaresOfASortedArray.java)
     - [164. 最大间距](leetcode/MaximumGap.java) 基数排序
